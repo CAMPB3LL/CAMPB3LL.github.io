@@ -7,21 +7,6 @@
 <script src="https://kit.fontawesome.com/0902ff1ba2.js" crossorigin="anonymous"></script>
 </head>
 
-<style>
-.fade-me-out.htmx-swapping {
-	opacity: 0;
-	transition: opacity 0.25s ease-out;
-}
-
-.fade-me-in.htmx-added {
-	opacity: 0;
-}
-.fade-me-in {
-	opacity: 1;
-	transition: opacity 0.5s ease-out;
-}
-</style>
-
 <body class="flex w-full h-screen justify-center items-center text-slate-300 font-sans text-4xl font-bold antialiased">
     <div id="register" hx-swap="outerHTML swap:0.25s" class="fade-me-out w-full h-1/5 justify-items-center grid grid-cols-2 gap-y-40 m-20">
         <p class="font-sans text-7xl text-slate-300 font-bold col-start-1 col-span-2">Who are you?</p>
